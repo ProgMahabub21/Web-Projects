@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet ">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <section class="sub-blog">
+        <nav>
+            <a href="index.html"><img src="images/MIT-Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="program.html">Programs</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      
+            <h3>MIT Blogs</h3>
+           
+       
+
+
+    </section>
+
+    <!-- -------- blog content --------- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/MIT-Antibiotic-Predictions-01_0.jpg">
+                <h2> <a href="https://news.mit.edu/2023/using-ai-mit-researchers-identify-antibiotic-candidates-1220" target="_blank" >Using AI, MIT researchers identify a new class of antibiotic candidates</a></h2>
+                <p>Using a type of artificial intelligence known as deep learning, MIT researchers have discovered a class of compounds that can kill a drug-resistant bacterium that causes more than 10,000 deaths in the United States every year.
+                <br> In a study appearing today in Nature, the researchers showed that these compounds could kill methicillin-resistant Staphylococcus aureus (MRSA) grown in a lab dish and in two mouse models of MRSA infection. The compounds also show very low toxicity against human cells, making them particularly good drug candidates.
+                <br> A key innovation of the new study is that the researchers were also able to figure out what kinds of information the deep-learning model was using to make its antibiotic potency predictions. This knowledge could help researchers to design additional drugs that might work even better than the ones identified by the model.
+                <br>
+                </p>
+               
+            </div>
+            <div class="blog-right">
+                <img src="images/MIT-blog2.png">
+                <h2>Paul Parravano, longtime liaison to elected leaders and MIT’s neighbors, dies at 71</h2>
+                <p>Former co-director of the Office of Government and Community Relations is remembered for his care and compassion.</p>
+                <!-- <a href="#" class="hero-btn red-btn">Read More</a> -->
+                <br>
+                <img src="images/MIT-blog3.jpg">
+                <h2>Fengshui in the Qing Dynasty courtroom</h2>
+                <p>Historian Tristan Brown’s new book tells the overlooked story of an ancient Chinese concept and its role in shaping the country’s law.</p>
+
+                <!-- <img src="images/MIT-blog4.jpg">
+                <h2>The science and art of complex systems</h2>
+                <p>Senior and physics major Gosha Geogdzhayev devotes himself to climate modeling and writing poetry.</p> -->
+            </div>
+        </div>
+    </section>
+   
+  
+
+    <!----Footer---->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>Mahfuzur</p>
+
+    </section>
+
+    
+
+   
+<!----Javascript for toggle menu logic--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
